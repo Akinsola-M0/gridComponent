@@ -1,5 +1,6 @@
 
 
+
 export default function Try ()
 {
     const images = [
@@ -38,7 +39,5 @@ export default function Try ()
     
     ]
 
-    images.map((item,i) => {
-      return  <h1> {item.name}</h1>
-    })
+   
 }
