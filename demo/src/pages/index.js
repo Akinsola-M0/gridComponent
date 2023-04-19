@@ -15,9 +15,9 @@ export default function Home() {
 
       <div className="mb-32 mt-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
          {
-          images.map((item,i) => {
+          images.map(item => {
              return(
-                <Grid  house={item.src} ></Grid>
+                <Grid  house={item.src} key={item.id} ></Grid>
              )
           })
          }
