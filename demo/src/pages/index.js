@@ -1,11 +1,45 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Grid from './grid'
-import { images } from './data'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const images = [
+
+    {
+        id:1,
+        name: "houseone",
+        src: "/houseone.jpg"
+    },
+    {
+        id:2,
+        name: "housetwo",
+        src: "/housetwo.jpg"
+    },
+    {
+        id:3,
+        name: "housethree",
+        src: "/housethree.jpg"
+    },
+    {
+        id:4,
+        name: "housefour",
+        src: "/housefour.jpg"
+    },
+    {
+        id:5,
+        name: "housefive",
+        src: "/housefive.jpg"
+    },
+    {
+        id:6,
+        name: "housesix",
+        src: "/housesix.jpg"
+    },
+
+
+]
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       
